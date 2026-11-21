@@ -1,6 +1,6 @@
 # OnionzWeb
 
-OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser's engine at its Safest level. A development build.
+OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser's engine at its Safest level. In beta.
 
 Website: https://customgpter.github.io/onionzweb/
 

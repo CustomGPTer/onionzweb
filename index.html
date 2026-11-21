@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>OnionzWeb: onion search and an onion-only browser in one app</title>
-<meta name="description" content="OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser&#x27;s engine at its Safest level. A development build.">
+<meta name="description" content="OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser&#x27;s engine at its Safest level. In beta.">
 <meta name="author" content="Jonathan Jackson">
 <link rel="canonical" href="https://customgpter.github.io/onionzweb/">
 <meta name="theme-color" content="#f7f6fc" media="(prefers-color-scheme: light)">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OnionzWeb">
 <meta property="og:title" content="OnionzWeb: onion search and an onion-only browser in one app">
-<meta property="og:description" content="OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser&#x27;s engine at its Safest level. A development build.">
+<meta property="og:description" content="OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser&#x27;s engine at its Safest level. In beta.">
 <meta property="og:url" content="https://customgpter.github.io/onionzweb/">
 <meta property="og:image" content="https://customgpter.github.io/onionzweb/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -28,7 +28,7 @@
 <link rel="stylesheet" href="./assets/house.css?v=1">
 <link rel="stylesheet" href="./assets/apps-list.css?v=1">
 <script src="./assets/apps-list.js?v=1" defer></script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"OnionzWeb","url":"https://customgpter.github.io/onionzweb/","description":"OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser's engine at its Safest level. A development build.","applicationCategory":"BrowserApplication","operatingSystem":"Android 10 or later, 64-bit (ARM64)","softwareVersion":"0.1.0 development build 8","downloadUrl":"https://github.com/CustomGPTer/onionzweb/releases/download/v0.1.0-dev8/OnionzWeb.apk","releaseNotes":"https://customgpter.github.io/onionzweb/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/onionzweb/assets/og.png","featureList":["Tor Browser's engine","Onion only","Tabs","Check the address","Your own index","Proper search","Saved text","New private session","JavaScript per site","App lock and no screenshots","Careful copying"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"OnionzWeb","url":"https://customgpter.github.io/onionzweb/","description":"OnionzWeb pairs a private onion search index, built on your phone over Tor, with an onion-only browser built on Tor Browser's engine at its Safest level. In beta.","applicationCategory":"BrowserApplication","operatingSystem":"Android 10 or later, 64-bit (ARM64)","softwareVersion":"0.1.0 beta (dev 8)","downloadUrl":"https://github.com/CustomGPTer/onionzweb/releases/download/v0.1.0-dev8/OnionzWeb.apk","releaseNotes":"https://customgpter.github.io/onionzweb/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/onionzweb/assets/og.png","featureList":["Tor Browser's engine","Onion only","Tabs","Check the address","Your own index","Proper search","Saved text","New private session","JavaScript per site","App lock and no screenshots","Careful copying"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is OnionzWeb free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no paid version, no subscription and no adverts."}},{"@type":"Question","name":"Is it the same as Onionz?","acceptedAnswer":{"@type":"Answer","text":"No. It is a separate app with its own index, and it does not touch Onionz. It adds a built-in browser."}},{"@type":"Question","name":"Can I visit normal websites?","acceptedAnswer":{"@type":"Answer","text":"No. OnionzWeb opens onion sites only. Use the official Tor Browser for the wider web."}},{"@type":"Question","name":"Why is the file so big?","acceptedAnswer":{"@type":"Answer","text":"It carries Tor Browser's engine inside it. It needs a 64-bit (ARM64) phone with Android 10 or later."}},{"@type":"Question","name":"Is it made by the Tor Project?","acceptedAnswer":{"@type":"Answer","text":"No. It uses Tor and Tor Browser's engine, but it is not made by or affiliated with the Tor Project."}},{"@type":"Question","name":"How do I update it?","acceptedAnswer":{"@type":"Answer","text":"Install the new version over the one you have. Do not uninstall or clear its data, or the index is lost."}}]}</script>
 </head>
 <body>
@@ -46,9 +46,9 @@
 <div class="hero-copy">
 <h1>Find onion sites, then open them, without leaving the app</h1>
 <p class="lede">OnionzWeb builds a search index of onion sites on your phone, over Tor, and lets you open the results in a browser built on Tor Browser's own engine.</p><p class="lede">The browser opens onion sites only, at Tor Browser's Safest security level, with each site on its own Tor route.</p>
-<p class="beta-note"><b>Test build.</b> This is a development build. It is not an official Tor Browser release and has not been independently audited. No app can promise complete anonymity.</p>
+<p class="beta-note"><b>Beta.</b> OnionzWeb is in beta. It is not an official Tor Browser release and has not been independently audited. No app can promise complete anonymity.</p>
 <div class="gate-scope"><div class="law-box" data-gate><label><input type="checkbox"> I understand and will use this app within the law</label><p>Some onion sites and some uses of them are against the law. <a href="terms.html#law">What the law says</a></p><noscript><p>Turn on JavaScript to tick the box and download.</p></noscript></div><p class="get" id="download"><a class="button" data-href="https://github.com/CustomGPTer/onionzweb/releases/download/v0.1.0-dev8/OnionzWeb.apk" aria-disabled="true" role="link" tabindex="-1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a><a class="aside" href="#install">How to install</a></p></div>
-<ul class="pills"><li>Version 0.1.0 development build 8</li><li>Android 10 or later, 64-bit (ARM64)</li><li>155 MB</li><li>Test build</li></ul>
+<ul class="pills"><li>Version 0.1.0 beta (dev 8)</li><li>Android 10 or later, 64-bit (ARM64)</li><li>155 MB</li><li>Beta</li></ul>
 <p class="facts">Free, with nothing to unlock. No adverts, no account with the developer, no tracking. <a href="compare.html">Compare</a> or read the <a href="releases.html">release notes</a>.</p>
 <p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway.</p>
 </div>
@@ -87,7 +87,7 @@
 <section id="privacy" aria-labelledby="privacy-h">
 <div class="wrap">
 <h2 id="privacy-h">Private by design, and honest about limits</h2>
-<ul class="plain"><li><h3>No search company</h3><p>Searches run on the phone and are never sent anywhere.</p></li><li><h3>No servers of ours</h3><p>No accounts, no analytics, no adverts and no tracking.</p></li><li><h3>Not audited</h3><p>A development build. Do not rely on it alone for your safety.</p></li></ul>
+<ul class="plain"><li><h3>No search company</h3><p>Searches run on the phone and are never sent anywhere.</p></li><li><h3>No servers of ours</h3><p>No accounts, no analytics, no adverts and no tracking.</p></li><li><h3>Not audited</h3><p>A beta. Do not rely on it alone for your safety.</p></li></ul>
 </div>
 </section>
 
@@ -104,7 +104,7 @@
 <h2 id="install-h">Installing and updating</h2>
 <p class="intro">OnionzWeb is not on Google Play, so your phone asks a couple of extra questions the first time.</p>
 <ol class="steps"><li><h3>Download the app file</h3><p>Tap Download on your phone. The file is called OnionzWeb.apk and is about 155 MB. If Chrome says the file might be harmful, choose Download anyway. First tick the box to say you will use the app within the law.</p></li><li><h3>Allow the install</h3><p>Open the file. The first time, Android asks you to allow your browser to install apps. Allow it, go back and tap Install. If Google Play Protect steps in, choose More details, then Install anyway.</p></li><li><h3>Updating later</h3><p>OnionzWeb tells you when a newer version is out. Install the new file over the old one and everything you have saved is kept.</p></li></ol>
-<p class="after-table">Version 0.1.0 development build 8, released 21 November 2026. See the <a href="releases.html">release notes</a>, or <a href="releases.html#checking">check your download</a>.</p>
+<p class="after-table">Version 0.1.0 beta (dev 8), released 21 November 2026. See the <a href="releases.html">release notes</a>, or <a href="releases.html#checking">check your download</a>.</p>
 </div>
 </section>
 
