@@ -1,10 +1,7 @@
-OnionzWeb 0.1.0 development build 8.
+OnionzWeb 0.1.0 dev 9
 
-- The browser now runs at Tor Browser's Safest security level.
-- Links that open a new window open in a new tab (up to eight). Long-press a link to see its full address, open it in a new tab or copy it.
-- When a link takes you to a different onion site, a banner shows the new address, with a tick if it is one you have bookmarked.
-- New private session restarts OnionzWeb with a fresh browser profile and fresh Tor routes.
-- The back gesture works on Android 16, and the screen now makes room for the status bar, gesture bar and keyboard.
-- Downloads keep the site's filename, and the save prompt warns that opening a file in another app can bypass Tor.
+- Scheduled refresh now works within Android's limits: it carries on in short runs until finished and survives phone restarts, with a quiet notice when done.
+- Notification icon, unlock screen and version line fixes.
+- New opening screen, an About section in Settings and a More apps card.
 
-Install over your current OnionzWeb; do not uninstall or clear its data. 64-bit Android 10 or later (ARM64). A development build: not an official Tor Browser release and not independently audited.
+Install over your current OnionzWeb. Don't uninstall it, or you'll lose your index.
